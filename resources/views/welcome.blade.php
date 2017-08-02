@@ -5,10 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta property="og:url"  content="http://watchti.club" />
         <meta property="og:title" content="WatchTi"/>
         <meta property="og:image" content="http://watchti.club/images/international2017.png"/>
         <meta property="og:site_name" content="WatchTi"/>
-        <meta property="og:description" content="Watch Ti four different channels on one screen"/>
+        <meta property="og:description" content="Watch Dota 2 The Internationals, four different channels on one screen"/>
+        <meta property="fb:app_id" content="1902516209989210" />
 
 
         <title>WatchTi</title>
@@ -54,11 +56,11 @@
             </a>
           </span>
                         <span class="nav-item">
-            <a href="https://pinterest.com/pin/create/button/?url=http%3A//watchti.club/images/international2017&media=http%3A//watchti.club&description=Join%20the%20club%20and%20Watch%204%20channels%20on%20one%20screen%20%23WatchTi%20http%3A//watchti.club" class="button is-small is-primary" style="background: #bd081c">
+            <a href="https://plus.google.com/share?url=http%3A//watchti.club" class="button is-small is-light" >
               <span class="icon is-small">
-                <i class="fa fa-pinterest"></i>
+                <i class="fa fa-google-plus"></i>
               </span>
-              <span>Pintrest</span>
+              <span>Google</span>
             </a>
           </span>
                     </div>
