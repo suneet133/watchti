@@ -30,7 +30,7 @@
             <header class="nav">
                 <div class="container">
                     <div class="nav-left">
-                        <a class="nav-item">
+                        <a class="nav-item" href="/">
                             <img src="/images/logo.png" alt="Logo"><h6>WatchTi </h6>
                         </a>
                     </div>

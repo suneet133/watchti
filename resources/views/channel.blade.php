@@ -30,7 +30,7 @@
         <header class="nav">
             <div class="container">
                 <div class="nav-left">
-                    <a class="nav-item">
+                    <a class="nav-item" href="/">
                         <img src="/images/logo.png" alt="Logo"><h6>WatchTi </h6>
                     </a>
                 </div>
@@ -39,7 +39,7 @@
                             Share on:
                         </span>
                     <span class="nav-item">
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//watchti.club" class="button is-small is-primary " style="background:#3b5998;">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//watchti.club/channel/{{$channel->id}}" class="button is-small is-primary " style="background:#3b5998;">
               <span class="icon is-small">
                 <i class="fa fa-facebook"></i>
               </span>
@@ -48,7 +48,7 @@
           </span>
 
                     <span class="nav-item">
-            <a href="https://twitter.com/home?status=http%3A//watchti.club" class="button is-small is-primary" style="background: #1da1f2">
+            <a href="https://twitter.com/home?status=http%3A//watchti.club/channel/{{$channel->id}}" class="button is-small is-primary" style="background: #1da1f2">
               <span class="icon is-small">
                 <i class="fa fa-twitter"></i>
               </span>
@@ -56,7 +56,7 @@
             </a>
           </span>
                     <span class="nav-item">
-            <a href="https://twitter.com/home?status=http%3A//watchti.club" class="button is-small is-primary" style="background: #bd081c">
+            <a href="https://twitter.com/home?status=http%3A//watchti.club/channel/{{$channel->id}}" class="button is-small is-primary" style="background: #bd081c">
               <span class="icon is-small">
                 <i class="fa fa-pinterest"></i>
               </span>
