@@ -8,7 +8,7 @@
         <meta content='WatchTi' property='og:site_name'>
         <meta content='WatchTi' property='og:title'>
         <meta content="Watch Dota 2, The International 4 channels at once." property='og:description'>
-        <meta content='/images/international2017.png' property='og:image'>
+        <meta content='http://watchti.club/images/international2017.png' property='og:image'>
         <meta content='https://www.watchti.club' property='og:url'>
         <meta content='website' property='og:type'>
         <meta content='@suneet133' property='twitter:site'>
@@ -56,7 +56,7 @@
             </a>
           </span>
                         <span class="nav-item">
-            <a href="https://twitter.com/home?status=http%3A//watchti.club" class="button is-small is-primary" style="background: #bd081c">
+            <a href="https://pinterest.com/pin/create/button/?url=http%3A//watchti.club/images/international2017.png&media=http%3A//watchti.club&description=Watch%20Dota%202,%20The%20International%204%20channels%20at%20once" class="button is-small is-primary" style="background: #bd081c">
               <span class="icon is-small">
                 <i class="fa fa-pinterest"></i>
               </span>
