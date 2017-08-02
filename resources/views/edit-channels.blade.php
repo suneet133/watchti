@@ -33,39 +33,6 @@
     <div class="container">
         <div class="columns">
             <div class="column">
-                <form method="post" action="/addchannel">
-                    {{csrf_field()}}
-                    <div class="field">
-                        <label class="label">Channel Name</label>
-                        <div class="control">
-                            <input class="input is-fullwidth" name="name" type="text" placeholder="enter name of channel">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Video Link</label>
-                        <div class="control">
-                            <input class="input" name="link" type="text" placeholder="provide link">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Channel Chat</label>
-                        <div class="control">
-                            <input class="input" name="chat" type="text" placeholder="provide chat link">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Channel Link</label>
-                        <div class="control">
-                            <input class="input" name="channel_link" type="text" placeholder="provide link">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <button class="button is-success" type="submit">Add Channel</button>
-                    </div>
-                </form>
-            </div>
-            <div class="column">
-                @foreach($channels as $channel)
                     <div class="box">
                         <form method="post" action="/updatechannel">
                             {{csrf_field()}}
@@ -99,7 +66,7 @@
                             </div>
                         </form>
                     </div>
-                    @endforeach
+
 
             </div>
         </div>

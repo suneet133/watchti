@@ -19,4 +19,6 @@ Route::get('/', function () {
 
 Route::get('/update-ti-channels','ChannelsController@index');
 Route::post('/addchannel','ChannelsController@create');
-Route::post('/updatechannel/{id}','ChannelsController@update');
+Route::get('/updatechannel/{id}/edit','ChannelsController@edit');
+Route::post('/updatechannel','ChannelsController@update');
+Route::get('/channel/{channel}','ChannelsController@showChannel');

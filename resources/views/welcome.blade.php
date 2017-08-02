@@ -73,8 +73,13 @@
             <div class="columns is-multiline is-mobile">
                 @foreach($channels as $channel)
                 <div class="column is-half">
-                    <p class="help is-info">{{$channel->name}}</p>
-                    {!! $channel->link !!}
+                    <div class="control">
+                        <a href="channel/{{$channel->id}}" class="button is-primary">{{$channel->name}}</a>
+                    </div>
+                    <div class="control">
+                        {!! $channel->link !!}
+                    </div>
+
                 </div>
                 @endforeach
 

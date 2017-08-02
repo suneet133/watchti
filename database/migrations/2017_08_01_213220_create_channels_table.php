@@ -17,6 +17,8 @@ class CreateChannelsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->longtext('link');
+            $table->longText('chat')->nullable();
+            $table->longText('channel_link')->nullable();
             $table->timestamps();
         });
     }

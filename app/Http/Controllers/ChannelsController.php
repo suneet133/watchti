@@ -12,17 +12,30 @@ class ChannelsController extends Controller
         return view('update-channels',compact('channels'));
     }
 
+    public function showChannel($channel){
+        $channel = Channel::find($channel)->first();
+
+        return view('channel',compact('channel'));
+    }
+
     public function create(){
         Channel::create(request()->all());
         return back();
     }
 
-    public function update($id){
-        $channel = Channel::find($id)->first();
+    public function edit($id){
+        $channel = Channel::find($id);
+        return view('edit-channels',compact('channel'));
+    }
+
+    public function update(){
+        $channel = Channel::find(request()->id);
         $channel->update([
             'name' => request()->name,
-            'link' => request()->link
+            'link' => request()->link,
+            'chat' => request()->chat,
+            'channel_link' => request()->channel_link
             ]);
-        return back();
+        return redirect('/update-ti-channels');
     }
 }
