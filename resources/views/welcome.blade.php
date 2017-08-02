@@ -5,13 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta content='WatchTi' property='og:site_name'>
-        <meta content='WatchTi' property='og:title'>
-        <meta content="Watch Dota 2, The International 4 channels at once." property='og:description'>
-        <meta content='http://watchti.club/images/international2017.png' property='og:image'>
-        <meta content='https://www.watchti.club' property='og:url'>
-        <meta content='website' property='og:type'>
-        <meta content='@suneet133' property='twitter:site'>
+        <meta property="og:title" content="WatchTi"/>
+        <meta property="og:image" content="http://watchti.club/images/international2017.png"/>
+        <meta property="og:site_name" content="WatchTi"/>
+        <meta property="og:description" content="Watch Ti four different channels on one screen"/>
+
 
         <title>WatchTi</title>
 
@@ -48,7 +46,7 @@
           </span>
 
                         <span class="nav-item">
-            <a href="https://twitter.com/home?status=http%3A//watchti.club" class="button is-small is-primary" style="background: #1da1f2">
+            <a href="https://twitter.com/home?status=Join%20the%20club%20and%20Watch%204%20channels%20on%20one%20screen%20%23WatchTi%20http%3A//watchti.club" class="button is-small is-primary" style="background: #1da1f2">
               <span class="icon is-small">
                 <i class="fa fa-twitter"></i>
               </span>
@@ -56,7 +54,7 @@
             </a>
           </span>
                         <span class="nav-item">
-            <a href="https://pinterest.com/pin/create/button/?url=http%3A//watchti.club/images/international2017.png&media=http%3A//watchti.club&description=Watch%20Dota%202,%20The%20International%204%20channels%20at%20once" class="button is-small is-primary" style="background: #bd081c">
+            <a href="https://pinterest.com/pin/create/button/?url=http%3A//watchti.club/images/international2017&media=http%3A//watchti.club&description=Join%20the%20club%20and%20Watch%204%20channels%20on%20one%20screen%20%23WatchTi%20http%3A//watchti.club" class="button is-small is-primary" style="background: #bd081c">
               <span class="icon is-small">
                 <i class="fa fa-pinterest"></i>
               </span>
