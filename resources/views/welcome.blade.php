@@ -34,6 +34,11 @@
                             <img src="/images/logo.png" alt="Logo"><h6>WatchTi </h6>
                         </a>
                     </div>
+                    <span class="nav-toggle">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </span>
                     <div class="nav-right nav-menu">
                         <span class="nav-item">
                             Share on:
@@ -106,7 +111,18 @@
             </nav>
         </div>
     </section>
+<script>
+    (function () {
+        var burger = document.querySelector('.nav-toggle');
+        var menu = document.querySelector('.nav-menu');
+        burger.addEventListener('click', function () {
+            burger.classList.toggle('is-active');
+            menu.classList.toggle('is-active');
+        });
+    })();
 
+</script>
+<script src="https://chatwee-api.com/v2/script/5988a046bd616db95662f0fe.js"></script>
 
     </body>
 
